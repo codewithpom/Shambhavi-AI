@@ -3,8 +3,8 @@ from email.message import EmailMessage
 import time
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
-server_login_mail = 'padmashreejha717@gmail.com'
-server_login_password = 'pankaj@2016'
+server_login_mail = 'yourmail'
+server_login_password = 'yourpassword'
 server.login(server_login_mail, server_login_password)
 i = 0
 def send_email(rec, subject, message):
